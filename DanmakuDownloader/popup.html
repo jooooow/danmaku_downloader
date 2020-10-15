@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+		* {
+			padding: 0;
+			margin: 0;
+			width:230px;
+		}
+        #get_cid_btn {
+          height: 30px;
+          width: 100px;
+          border: none;
+		  outline:none;
+		  background-color:#E6E6E6;
+        }
+		#get_cid_btn:hover{
+		  background-color:#C6C6C6;
+        }
+		#cid_input{
+			width:80%;
+		}
+		#title_div {
+			text-align:center;
+			width:100%;
+			height:50px;
+			font-size:19px;
+			font-family:consola;
+			background-color:#FF75B7;
+			vertical-align:middle;
+			color:white;
+			display: table-cell;
+		}
+      </style>
+    </head>
+    <body>
+		<div id = "title_div">
+			<div id = "title">DanmakuDownloader</div>
+		</div>
+		<div style = "width : auto; height : auto; margin-top:10px; text-align:center;">
+			<input id = "cid_input"></input>
+		</div>
+		<div style = "width : auto; height : 35px;text-align:center;margin-top:10px">
+			<button id = "get_cid_btn">download</button>
+		</div>
+		<script src = "popup.js"></script>
+    </body>
+  </html>
